@@ -12,7 +12,7 @@
 	<link href="../resources/css/my_style.css" rel="stylesheet">
   </head>
   <body>
-	
+
 	<img src="../resources/img/beproudcapaabanner.jpg" class="img-fluid" alt="Registration Page Banner for CU Football">
     <br>
 	<br>
@@ -33,6 +33,71 @@
 					11. Submit Button (links to home page)
 
 			-->
+      <label for="input_id">Full Name:</label>
+  <input type="text" name="my_text_field" placeholder="Enter Name">
+  <br>
+  <br>
+  <label for="input_id">Email address: </label>
+
+
+  <input type="email" name="my_email_field" placeholder="Enter Email">
+  <br>
+  <br>
+  <label for="input_id">Password:</label>
+  <input type="password" name="my_pw_field" placeholder="Password">
+  <br>
+  <br>
+  <label for="input_id">Confirm password:</label>
+  <input type="password" name="my_pw_field" placeholder="Confrim Password">
+  <br>
+  <br>
+  <div class="row">
+    <div class="col" colspan="1">CU Boulder Alumni </div>
+    <div class="col">
+  <input type="radio" name="choice" value="1" checked> Yes
+  <br>
+<input type="radio" name="choice" value="2"> No
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+  <div class="col" colspan="1">CU Boulder Student </div>
+  <div class="col">
+<input type="radio" name="choice" value="1" checked> Yes
+<br>
+<input type="radio" name="choice" value="2"> No
+</div>
+</div>
+<br>
+<br>
+<div class="row">
+  <div class="col" colspan="1">Student Status </div>
+  <div class="col">
+    <div class="form-group">
+      <input type="radio" name="choice" value="1" checked>Undergrad
+      <br>
+      <select name="select_choice">
+  <option selected>Select Student Status</option>
+  <option value="1">Freshman</option>
+  <option value="2">Sophomore</option>
+  <option value="3">Junior</option>
+  <option value="4">Senior</option>
+</select>
+<br>
+<input type="radio" name="choice" value="1">Grad
+<br>
+<select name="select_choice">
+  <option selected>Select Student Status</option>
+  <option value="1">MA</option>
+  <option value="2">MBA</option>
+  <option value="3">PHD</option>
+</select>
+</div>
+</div>
+</div>
+
+
 			<input type="submit" value="submit" class="btn btn-primary btn-block">
 		</form>
 	</div>
